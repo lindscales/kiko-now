@@ -11,6 +11,6 @@ permalink: /about/
     <h3>I'm Lindsey Scales,</h3>
     <p>a designer and developer based in the funky and flavorful city of Durham, North Carolina. I have an enthusiasm for crafting beautiful, responsive interfaces keeping the user as the top priority. I require a regular dose of blue skies, clever puns, and tacos with chorizo.</p>
     <h3>Let's Connect!</h3>
-    [lindseyscales3@gmail.com](mailto:lindseyscales3@gmail.com)
+    <a href="mailto:lindseyscales3@gmail.com">Drop me a line.</a>
   </div>
 </div>
