@@ -1,11 +1,11 @@
 .nav {
-  display: flex;
+  justify-content: flex-end;
   margin-top: 0 !important; // theme override
+  width: 100%;
 }
 
 .masthead {
   align-items: center;
   border-bottom: 0 !important; // theme override
-  // display: flex;
-  // justify-content: space-between;
+  display: flex;
 }
