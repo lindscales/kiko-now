@@ -1,0 +1,22 @@
+// Grid
+
+.grid {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  &__block {
+    &:not(:last-child) {
+      margin-bottom: $base-spacing;
+      margin-right: $base-spacing;
+    }
+
+    &--2 {
+      flex-basis: 50%;
+    }
+
+    &--4 {
+      flex-basis: 25%;
+    }
+  }
+}
