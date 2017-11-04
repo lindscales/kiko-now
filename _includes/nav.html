@@ -10,20 +10,24 @@
         <p class="site-description">{{ site.description }}</p>
       </div> -->
 
-      <nav>
+      <nav class="grid">
         {% for nav in site.navigation %}
         {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-        <a href="{{ nav.url }}">
-          <div class="square">
-              {{ nav.name }}
-          </div>
-        </a>
+        <div class="grid__block">
+          <a href="{{ nav.url }}">
+            <div class="square">
+                {{ nav.name }}
+            </div>
+          </a>
+        </div>
         {% else %}
-        <a href="{{ site.baseurl }}{{ nav.url }}">
-          <div class="square">
-            {{ nav.name }}
-          </div>  
-        </a>
+        <div class="grid__block">
+          <a href="{{ site.baseurl }}{{ nav.url }}">
+            <div class="square">
+              {{ nav.name }}
+            </div>
+          </a>
+        </div>  
         {% endif %}
         {% endfor %}
       </nav>
