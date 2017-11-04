@@ -81,8 +81,8 @@ $dd-position: $dt-width+$dt-dd-space;
 // Spacing
 
 $base-spacing: 12px;
-$spacing-sm: calc(base-spacing * 0.5);
-$spacing-lg: calc($base-spacing * 2);
+$spacing-sm: calc(var(base-spacing) * 0.5);
+$spacing-lg: calc(var($base-spacing) * 2);
 
 // Mobile breakpoints
 @mixin mobile {
