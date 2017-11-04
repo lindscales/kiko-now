@@ -7,8 +7,8 @@
 
   &__block {
     &:not(:last-child) {
-      margin-bottom: $spacing-lg;
-      margin-right: $spacing-lg;
+      margin-bottom: $spacing-xl;
+      margin-right: $spacing-xl;
     }
 
     &--2 {
