@@ -13,21 +13,17 @@
       <nav class="grid">
         {% for nav in site.navigation %}
         {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-        <div class="grid__block">
-          <a href="{{ nav.url }}">
-            <div class="square">
-                {{ nav.name }}
-            </div>
-          </a>
-        </div>
-        {% else %}
-        <div class="grid__block">
-          <a href="{{ site.baseurl }}{{ nav.url }}">
-            <div class="square">
+        <a href="{{ nav.url }}">
+          <div class="square">
               {{ nav.name }}
-            </div>
-          </a>
-        </div>  
+          </div>
+        </a>
+        {% else %}
+        <a href="{{ site.baseurl }}{{ nav.url }}">
+          <div class="square">
+            {{ nav.name }}
+          </div>
+        </a>
         {% endif %}
         {% endfor %}
       </nav>
