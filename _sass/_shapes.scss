@@ -1,8 +1,12 @@
 // Shapes
 
 .square {
+  align-items: center;
   background-color: $black;
   color: $white;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
   height: 100px;
   width: 100px;
 }
