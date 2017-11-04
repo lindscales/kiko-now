@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+![Lindsey Scales](/images/LindseyScales.jpg "Lindsey Scales")
 
-### More Information
+I'm Lindsey Scales, a designer and developer based in the funky and flavorful city of Durham, North Carolina. I have an enthusiasm for crafting beautiful, responsive interfaces keeping the user as the top priority. I require a regular dose of blue skies, clever puns, and tacos with chorizo.
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+### Let's Connect!
 
-[email@domain.com](mailto:email@domain.com)
+[lindseyscales3@gmail.com](mailto:lindseyscales3@gmail.com)
