@@ -9,7 +9,7 @@
         <img src="/images/HeaderNavName.png" alt="Lindsey Scales" />
       </div>
 
-      <nav>
+      <nav class="nav">
         {% for nav in site.navigation %}
         {% if nav.url contains 'http://' or nav.url contains 'https://' %}
         <a href="{{ nav.url }}">

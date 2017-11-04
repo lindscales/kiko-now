@@ -1,8 +1,11 @@
+.nav {
+  display: flex;
+  margin-top: 0 !important; // theme override
+}
+
 .masthead {
   align-items: center;
-  border-bottom: 0 !important;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 0;
-  padding-top: $spacing-med;
+  border-bottom: 0 !important; // theme override
+  // display: flex;
+  // justify-content: space-between;
 }
