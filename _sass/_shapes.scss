@@ -34,12 +34,6 @@
   z-index: 1;
 }
 
-.outline--hover:hover {
-  @extend .outline;
-  height: 100%;
-  width: 100%;
-}
-
 @keyframes clipMe {
   0%,
   100% {
