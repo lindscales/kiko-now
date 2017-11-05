@@ -50,7 +50,7 @@
   &::before,
   &::after {
     animation: clipMe $anime-time linear infinite;
-    animation-delay: 2s;
+    animation-delay: -2s;
     bottom: 0;
     box-shadow: inset 0 0 0 $path-width $main-color;
     content: "";
