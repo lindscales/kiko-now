@@ -105,7 +105,7 @@ $path-width: 2px;
 
 $main-color: $blue;
 
-%full-fill {
+@mixin corner-animate; {
   position: absolute;
   top: 0;
   bottom: 0;

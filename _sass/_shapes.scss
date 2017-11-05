@@ -27,7 +27,7 @@
 .outline--nav-hover {
   &:hover {
     .corner {
-      @extend %full-fill;
+      @include corner-animate;
       width: $box-size;
       height: $box-size;
       margin: auto;
@@ -37,7 +37,7 @@
 
       &::before,
       &::after {
-        @extend %full-fill;
+        @include corner-animate;
         content: '';
         z-index: -1;
         margin: -1 * $clip-distance * 100%;
