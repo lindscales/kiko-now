@@ -1,4 +1,8 @@
-// Main
+// Wrappers and Containers
+
+.container {
+  max-width: 1024px !important; // override
+}
 
 .view-wrapper {
   min-height: 50vh;
