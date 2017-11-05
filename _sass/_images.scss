@@ -19,31 +19,9 @@ img {
 }
 
 .img--grayscale {
-  filter: grayscale(80%);
+  filter: grayscale(75%);
 
   &:hover {
-    filter: url(#monochrome);
-  }
-}
-
-.filter {
-  position: relative;
-
-  &:hover {
-    filter: hue-rotate(1deg);
-    -webkit-filter: hue-rotate(1deg);
-    -moz-filter: hue-rotate(1deg);
-
-    &::after{
-      background: #2031b2;
-      content: "";
-      display: block;
-      top: 0;
-      left: 0;
-      height: 100%;
-      mix-blend-mode: multiply;
-      position: absolute;
-      width: 100%;
-    }
+    filter: grayscale(0%);
   }
 }
