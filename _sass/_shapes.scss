@@ -9,6 +9,10 @@
   justify-content: center;
   height: 100px;
   width: 100px;
+
+  &:hover {
+    color: $blue !important;
+  }
 }
 
 .outline {
