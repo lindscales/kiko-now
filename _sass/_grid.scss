@@ -6,6 +6,10 @@
   justify-content: center;
   margin-bottom: $spacing-xxl;
 
+  @include mobile {
+    display: block;
+  }
+
   &__block {
     &:not(:last-child) {
       margin-right: $spacing-xxl;
@@ -13,10 +17,10 @@
 
     &--2 {
       flex-basis: 50%;
-    }
 
-    &--4 {
-      flex-basis: 25%;
+      @include mobile {
+        flex-basis: 75%;
+      }
     }
   }
 }

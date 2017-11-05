@@ -5,5 +5,9 @@
 
   &--flex {
     display: flex;
+
+    @include mobile {
+      display: block;
+    }
   }
 }
