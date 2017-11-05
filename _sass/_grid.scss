@@ -1,17 +1,15 @@
 // Grid
 
 .grid {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-
-  @include mobile {
-    flex-direction: column;
-  }
-
   &__row {
-    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: $spacing-xxl;
+
+    @include mobile {
+      flex-direction: column;
+    }
   }
 
   &__block {
