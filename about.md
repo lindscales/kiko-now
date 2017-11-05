@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 ---
 <div class="view-wrapper view-wrapper--flex">
-  <div class="grid>
+  <div class="grid">
     <div class="grid__row">
       <div class="grid__block">
         <img class="img--about" src="/images/LindseyScales.jpg" alt="Lindsey Scales" />
