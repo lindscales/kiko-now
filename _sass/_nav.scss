@@ -12,6 +12,7 @@
 
 .masthead {
   align-items: center;
+  border-bottom: 1px solid $blue !important; // theme override
   display: flex;
 
   @include mobile {
