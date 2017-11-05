@@ -61,11 +61,3 @@
     top: 0;
   }
 }
-
-.outline--nav-hover:nth-child(even):hover,
-.outline--nav-hover:nth-child(even):active {
-  &::before,
-  &::after {
-    animation-fill-mode: backwards;
-  }
-}
