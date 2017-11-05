@@ -12,14 +12,14 @@
 }
 
 .outline {
+  backface-visibility: hidden;
+  box-shadow: 0 0 0 4px $blue;
+  content: "";
   display: block;
+  height: 315px;
+  left: -5px;
   position: absolute;
   top: -5px;
-  left: -5px;
-  width: 260px;
-  height: 320px;
-  backface-visibility: hidden;
-  box-shadow: 0 0 0 5px $blue;
-  content: "";
+  width: 255px;
   z-index: 1;
 }
