@@ -5,7 +5,7 @@ permalink: /about/
 
 <div class="grid">
   <div class="grid__block grid__block--2">
-    <img src="/images/LindseyScales.jpg" alt="Lindsey Scales" />
+    <img class="img--about" src="/images/LindseyScales.jpg" alt="Lindsey Scales" />
   </div>
   <div class="grid__block grid__block--2">
     <h3>I'm Lindsey Scales,</h3>
