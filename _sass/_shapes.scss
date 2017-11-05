@@ -44,22 +44,23 @@
   }
 }
 
-.outline--nav-hover:hover {
+.outline--nav-hover:hover,
+.outline--nav-hover:active {
   &::before,
   &::after {
     animation: clipMe $anime-time linear infinite;
-    bottom: -5px;
+    bottom: 0;
     box-shadow: inset 0 0 0 $path-width $main-color;
     content: "";
-    left: -5px;
-    margin: -1 * $clip-distance * 1px;
+    left: 0;
+    margin: 5px;
     position: absolute;
-    right: -5px;
-    top: -5px;
+    right: 0;
+    top: 0;
     z-index: -1;
   }
 
   &::before {
-    animation-delay: $anime-time * -.5;
+    animation-delay: $anime-time * -0.75;
   }
 }
