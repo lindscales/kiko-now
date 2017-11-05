@@ -8,6 +8,11 @@ img {
   filter: grayscale(50%);
   height: 80%;
   width: 80%;
+
+  @include mobile {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .img--work {
