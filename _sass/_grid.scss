@@ -7,7 +7,7 @@
   margin-bottom: $spacing-xxl;
 
   @include mobile {
-    display: block;
+    flex-direction: column;
   }
 
   &__block {

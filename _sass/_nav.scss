@@ -3,6 +3,10 @@
   justify-content: flex-end;
   margin-top: 0 !important; // theme override
   width: 100%;
+
+  @include mobile {
+    margin-top: $spacing-med;
+  }
 }
 
 .masthead {
@@ -11,6 +15,7 @@
   display: flex;
 
   @include mobile {
-    display: block;
+    flex-direction: column;
+    justify-content: center;
   }
 }
