@@ -15,6 +15,8 @@ permalink: /work/
         <img class="image--work" src="/images/placeholder-image.png" alt="placeholder" />
       </a>
     </div>
+  </div>
+  <div class="grid">
     <div class="grid__block">
       <a href="https://www.allthingsopen.org">
         <img class="image--work" src="/images/placeholder-image.png" alt="placeholder" />
@@ -26,4 +28,4 @@ permalink: /work/
       </a>
     </div>
   </div>
-</div>  
+</div>
