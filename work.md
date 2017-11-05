@@ -8,24 +8,24 @@ permalink: /work/
     <div class="grid__row">
       <div class="grid__block square square--large">
         <a href="https://www.allthingsopen.org">
-          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
+          <img class="img--grayscale" src="/images/AllThingsOpen.png" alt="All Things Open" />
         </a>
       </div>
       <div class="grid__block square square--large">
-        <a href="https://www.allthingsopen.org">
-          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
+        <a href="http://croasdailefarm.com/">
+          <img class="img--grayscale" src="/images/CroasdaileFarm.png" alt="Croasdaile Farm" />
         </a>
       </div>
     </div>
     <div class="grid__row">
       <div class="grid__block square square--large">
-        <a href="https://www.allthingsopen.org">
-          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
+        <a href="http://scipol.duke.edu/">
+          <img class="img--grayscale" src="/images/DukeSciPol.png" alt="Duke SciPol" />
         </a>
       </div>
       <div class="grid__block square square--large">
-        <a href="https://www.allthingsopen.org">
-          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
+        <a href="https://advancesupport.zozi.com/hc/en-us/articles/115002200928-New-Checkout-Flow-how-to-generate-the-checkout-code-for-your-website-">
+          <img class="img--grayscale" src="/images/Zozi.png" alt="Zozi" />
         </a>
       </div>
     </div>
