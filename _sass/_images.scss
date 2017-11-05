@@ -21,7 +21,7 @@ img {
 }
 
 .img--grayscale {
-  filter: grayscale(85%) hue-rotate(200deg) saturate(500%);
+  filter: grayscale(70%) hue-rotate(225deg) saturate(150%);
   transition: 2s filter ease-out;
 
   &:hover {
