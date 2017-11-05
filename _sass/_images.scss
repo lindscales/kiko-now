@@ -21,10 +21,10 @@ img {
 }
 
 .img--grayscale {
-  filter: grayscale(75%) hue-rotate(190deg) saturate(500%);
+  filter: grayscale(85%) hue-rotate(200deg) saturate(500%);
 
   &:hover {
-    filter: grayscale(100%);
+    filter: grayscale(10%);
   }
 }
 
