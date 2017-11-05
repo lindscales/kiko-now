@@ -49,18 +49,17 @@
   &::before,
   &::after {
     animation: clipMe $anime-time linear infinite;
-    bottom: 0;
+    bottom: -2px;
     box-shadow: inset 0 0 0 $path-width $main-color;
     content: "";
-    left: 0;
-    margin: -5px;
+    left: 18px;
+    margin: -10px;
     position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
+    right: -1px;
+    top: -2px;
   }
 
   &::before {
-    animation-delay: 2s;
+    animation-delay: -4s;
   }
 }
