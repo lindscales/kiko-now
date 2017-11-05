@@ -1,6 +1,9 @@
 // Main
 
-#main {
-  display: flex;
+.view-wrapper {
   min-height: 40vh;
+
+  &--flex {
+    display: flex;
+  }
 }
