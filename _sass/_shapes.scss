@@ -3,7 +3,7 @@
 .square {
   align-items: center;
   background-color: $black;
-  color: $white;
+  color: $white !important; // override link style
   display: flex;
   font-weight: bold;
   justify-content: center;
@@ -44,14 +44,14 @@
   &::before,
   &::after {
     animation: clipMe $anime-time linear infinite;
-    bottom: 0;
+    bottom: -5px;
     box-shadow: inset 0 0 0 $path-width $main-color;
     content: "";
-    left: 0;
-    margin: -1 * $clip-distance * 100%;
+    left: -5px;
+    margin: -1 * $clip-distance * 1px;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -5px;
+    top: -5px;
     z-index: -1;
   }
 
