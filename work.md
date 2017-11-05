@@ -8,24 +8,24 @@ permalink: /work/
     <div class="grid__row">
       <div class="grid__block">
         <a href="https://www.allthingsopen.org">
-          <img class="image--work" src="/images/placeholder-image.png" alt="placeholder" />
+          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
         </a>
       </div>
       <div class="grid__block">
         <a href="https://www.allthingsopen.org">
-          <img class="image--work" src="/images/placeholder-image.png" alt="placeholder" />
+          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
         </a>
       </div>
     </div>
     <div class="grid__row">
       <div class="grid__block">
         <a href="https://www.allthingsopen.org">
-          <img class="image--work" src="/images/placeholder-image.png" alt="placeholder" />
+          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
         </a>
       </div>
       <div class="grid__block">
         <a href="https://www.allthingsopen.org">
-          <img class="image--work" src="/images/placeholder-image.png" alt="placeholder" />
+          <img class="img--grayscale" src="/images/placeholder-image.png" alt="placeholder" />
         </a>
       </div>
     </div>
