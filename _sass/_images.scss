@@ -20,4 +20,16 @@ img {
 
 .img--grayscale {
   filter: grayscale(80%);
+
+  &:hover {
+    filter: url(#monochrome);
+  }
+}
+
+.defs-only {
+  position: absolute;
+  height: 0;
+  left: -100%;
+  overflow: none;
+  width: 0;
 }
