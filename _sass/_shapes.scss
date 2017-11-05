@@ -11,7 +11,7 @@
   width: 100px;
 
   &:hover {
-    color: $blue !important;
+    color: $white !important;
   }
 }
 
@@ -53,7 +53,7 @@
     box-shadow: inset 0 0 0 $path-width $main-color;
     content: "";
     left: 0;
-    margin: 5px;
+    margin: -5px;
     position: absolute;
     right: 0;
     top: 0;
@@ -61,6 +61,6 @@
   }
 
   &::before {
-    animation-delay: $anime-time * -0.75;
+    animation-delay: 2s;
   }
 }
