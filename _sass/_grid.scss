@@ -4,10 +4,14 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-bottom: $spacing-xxl;
 
   @include mobile {
     flex-direction: column;
+  }
+
+  &__row {
+    display: block;
+    margin-bottom: $spacing-xxl;
   }
 
   &__block {
