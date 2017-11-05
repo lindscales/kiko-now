@@ -1,5 +1,9 @@
 // Typography
 
 a {
-  color: $blue !important; //theme override
+  color: $blue !important;
+
+  &:hover {
+    color: $darkBlue !important;
+  }
 }
