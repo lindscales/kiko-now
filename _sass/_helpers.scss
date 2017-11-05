@@ -3,3 +3,17 @@
 .h-no-margin-bottom{
   margin-bottom: 0 !important; // theme override
 }
+
+// Responsive
+
+.h-mobile-hide {
+  @include mobile {
+    display: none;
+  }
+}
+
+.h-mobile-show {
+  @include mobile {
+    display: block;
+  }
+}
