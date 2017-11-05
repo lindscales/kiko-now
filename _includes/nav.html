@@ -16,15 +16,17 @@
         {% if nav.url contains 'http://' or nav.url contains 'https://' %}
         <a class="outline--nav-hover" href="{{ nav.url }}">
           <div class="square h-position-relative">
-            <div class="corner">
+            <div class="corners">
               {{ nav.name }}
             </div>
-          </div> 
+          </div>
         </a>
         {% else %}
-        <a href="{{ site.baseurl }}{{ nav.url }}">
-          <div class="square">
-            {{ nav.name }}
+        <a class="outline--nav-hover" href="{{ site.baseurl }}{{ nav.url }}">
+          <div class="square h-position-relative">
+            <div class="corners">
+              {{ nav.name }}
+            </div>  
           </div>
         </a>
         {% endif %}
