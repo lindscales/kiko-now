@@ -12,7 +12,6 @@
 
 .masthead {
   align-items: center;
-  border-bottom: 0 !important; // theme override
   display: flex;
 
   @include mobile {
