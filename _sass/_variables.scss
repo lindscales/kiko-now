@@ -103,11 +103,3 @@ $clip-distance: .05;
 $clip-size: $box-size * (1 + $clip-distance * 2);
 $path-width: 2px;
 $main-color: $blue;
-
-@mixin corner-animate {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
