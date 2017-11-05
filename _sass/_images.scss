@@ -15,7 +15,7 @@ img {
   filter: grayscale(50%);
   height: 305px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto !important;
   width: 245px;
   max-width: none !important;
 }
