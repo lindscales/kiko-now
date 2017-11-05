@@ -4,10 +4,10 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-bottom: $spacing-xxl;
 
   &__block {
     &:not(:last-child) {
-      margin-bottom: $spacing-xxl;
       margin-right: $spacing-xxl;
     }
 
