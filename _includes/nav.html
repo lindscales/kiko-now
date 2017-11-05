@@ -14,9 +14,11 @@
       <nav class="nav">
         {% for nav in site.navigation %}
         {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-        <a href="{{ nav.url }}">
-          <div class="square">
+        <a class="outline--nav-hover" href="{{ nav.url }}">
+          <div class="square h-position-relative">
+            <div class="corner">
               {{ nav.name }}
+            </div>
           </div>
         </a>
         {% else %}
