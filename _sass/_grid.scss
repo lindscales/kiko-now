@@ -15,13 +15,8 @@
       margin-right: $spacing-xxl;
     }
 
-    &--2 {
-      flex-basis: 50%;
-
-      @include mobile {
-        flex-basis: 75%;
-        margin-bottom: $spacing-xxl;
-      }
+    @include mobile {
+      margin-bottom: $spacing-xxl;
     }
   }
 }

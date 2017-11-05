@@ -5,7 +5,8 @@
   width: 100%;
 
   @include mobile {
-    margin-top: $spacing-med;
+    justify-content: center;
+    margin-top: $spacing-med !important;
   }
 }
 
