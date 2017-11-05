@@ -3,6 +3,11 @@
 .view-wrapper {
   min-height: 50vh;
 
+  @include mobile {
+    margin-left: $spacing-xl;
+    margin-right: $spacing-xl;
+  }
+
   &--flex {
     display: flex;
 

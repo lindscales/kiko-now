@@ -13,6 +13,8 @@
 }
 
 .h-mobile-show {
+  display: none;
+
   @include mobile {
     display: block;
   }
