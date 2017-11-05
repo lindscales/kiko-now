@@ -3,6 +3,8 @@
 img {
   border-radius: 0 !important;
   margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  max-width: none !important;
 
   @include mobile {
     margin-left: auto !important;
@@ -13,7 +15,7 @@ img {
 .img--about {
   filter: grayscale(50%);
   height: 305px;
-  width: 250px;
+  width: 245px;
 }
 
 .img--grayscale {
