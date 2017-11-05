@@ -58,9 +58,11 @@
       }
     }
 
-@keyframes clipMe {
-  0%, 100% {clip: rect(0px, $clip-size, $path-width, 0px); }
-  25% {clip: rect(0px, $path-width, $clip-size, 0px); }
-  50% {clip: rect($clip-size - $path-width, $clip-size, $clip-size, 0px); }
-  75% {clip: rect(0px, $clip-size, $clip-size, $clip-size - $path-width); }
-}
+    @keyframes clipMe {
+      0%, 100% {clip: rect(0px, $clip-size, $path-width, 0px); }
+      25% {clip: rect(0px, $path-width, $clip-size, 0px); }
+      50% {clip: rect($clip-size - $path-width, $clip-size, $clip-size, 0px); }
+      75% {clip: rect(0px, $clip-size, $clip-size, $clip-size - $path-width); }
+    }
+  }
+} 
