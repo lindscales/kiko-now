@@ -12,20 +12,23 @@
       </div>
 
       <nav class="nav">
-        <div class="h-position-relative">
           {% for nav in site.navigation %}
           {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-          <a class="outline--nav-hover" href="{{ nav.url }}">
-            <div class="square">
-              {{ nav.name }}
-            </div>
-          </a>
+          <div class="h-position-relative">
+            <a class="outline--nav-hover" href="{{ nav.url }}">
+              <div class="square">
+                {{ nav.name }}
+              </div>
+            </a>
+          </div>
           {% else %}
-          <a class="outline--nav-hover" href="{{ site.baseurl }}{{ nav.url }}">
-            <div class="square">
-              {{ nav.name }}
-            </div>
-          </a>
+          <div class="h-position-relative">
+            <a class="outline--nav-hover" href="{{ site.baseurl }}{{ nav.url }}">
+              <div class="square">
+                {{ nav.name }}
+              </div>
+            </a>
+          </div>  
           {% endif %}
           {% endfor %}
         </div>
