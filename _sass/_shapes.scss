@@ -9,4 +9,9 @@
   justify-content: center;
   height: 100px;
   width: 100px;
+
+  &--large {
+    height: 250px;
+    width: 250px;
+  }
 }
