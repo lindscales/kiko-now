@@ -20,6 +20,7 @@
 
       @include mobile {
         flex-basis: 75%;
+        margin-bottom: $spacing-xxl;
       }
     }
   }
