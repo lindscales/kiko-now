@@ -24,17 +24,17 @@
 .outline {
   backface-visibility: hidden;
   bottom: -5px;
-  box-shadow: 0 0 0 4px $blue;
+  box-shadow: 0 0 0 2px $blue;
   content: "";
   display: block;
-  height: 464px;
+  height: 431px;
   left: 0;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
   right: 0;
   top: -5px;
-  width: 385px;
+  width: 324px;
   z-index: 1;
 }
 
