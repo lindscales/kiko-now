@@ -3,6 +3,7 @@
 .square {
   align-items: center;
   background-color: $black;
+  border-radius: 5px;
   color: $white !important; // override link style
   display: flex;
   font-weight: bold;
@@ -23,6 +24,7 @@
 
 .outline {
   backface-visibility: hidden;
+  border-radius: 5px;
   bottom: -5px;
   box-shadow: 0 0 0 2px $darkBlue;
   content: "";
@@ -64,6 +66,7 @@
       animation: clipMe $anime-time linear infinite;
       animation-delay: -5s;
       bottom: 0;
+      border-radius: 5px;
       box-shadow: inset 0 0 0 $path-width $main-color;
       content: "";
       left: 0;
