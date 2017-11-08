@@ -22,7 +22,7 @@ permalink: /work/
         </a>
       </div>
       <div class="grid__block square square--large">
-        <a href="/LSDesignSystems.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/LS_Design_Systems.pdf" target="_blank" rel="noopener noreferrer">
           <img class="img--grayscale img--work" src="/images/DesignSystems.png" alt="Design Systems" />
         </a>
       </div>
