@@ -23,22 +23,24 @@
 }
 
 .outline {
+  backface-visibility: hidden;
+  border-radius: 5px;
+  bottom: -5px;
+  box-shadow: 0 0 0 2px $darkBlue;
+  content: "";
+  display: block;
+  height: 431px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 324px;
+  z-index: 1;
+
   @include mobile {
-    backface-visibility: hidden;
-    border-radius: 5px;
-    bottom: -5px;
-    box-shadow: 0 0 0 2px $darkBlue;
-    content: "";
-    display: block;
-    height: 431px;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    right: 0;
-    top: -5px;
-    width: 324px;
-    z-index: 1;
+    display: none;
   }
 }
 
