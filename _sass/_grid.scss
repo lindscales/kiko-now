@@ -5,7 +5,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: $spacing-med;
+    margin-bottom: $spacing-xxl;
 
     @include mobile {
       flex-direction: column;
